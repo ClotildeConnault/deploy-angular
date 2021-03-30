@@ -1,9 +1,9 @@
 
-<div class="spinner-border text-warning" role="status" *ngIf="loading">
+<div class="spinner-border text-warning" role="status" *ngIf="">
     <span class="sr-only">Loading...</span>
   </div>
 
-<div class="container" *ngIf>
+<div class="container">
     <h4>Flowers</h4>
 <ul class="list-group">
     <li class="list-group-item" *ngFor="let f of flowers">{{f.name}}</li>
